@@ -60,7 +60,7 @@ command, which can create an instant application skeleton.
     docker build -t week-6-muhammad-avicena:1.0.0 .
     ```
     Once the command is executed, it will build docker images based on the following command from Dockerfile
-    <img alt="images-docker" src="image-github/docker-build.png">
+    <img alt="images-docker" src="image-github/docker-build.PNG">
 6. Check the docker image using Desktop or terminal commands:
     <br>
     <br>
@@ -68,10 +68,10 @@ command, which can create an instant application skeleton.
     ```
     docker images
     ```
-    <img alt="images-docker" src="image-github/docker-images-terminal.png">
+    <img alt="images-docker" src="image-github/docker-images-terminal.PNG">
     <br>
     Via Docker desktop :
-    <img alt="images-docker" src="image-github/docker-images.png">
+    <img alt="images-docker" src="image-github/docker-images.PNG">
 7. Create Container for your images:
     <br>
     ```
@@ -82,7 +82,7 @@ command, which can create an instant application skeleton.
     docker container ls -all
     ```
     Or check the docker container via desktop : 
-    <img alt="docker-image" src="image-github/docker-container.png">
+    <img alt="docker-image" src="image-github/docker-contain.PNG">
     <br>
     
 ### It's time to see your app running on Docker !
@@ -92,6 +92,6 @@ command, which can create an instant application skeleton.
     docker container start week6-muhammad-avicena
     ```
     You will see the docker container is running via desktop :
-    <img alt="docker-image" src="image-github/docker-start.png">
+    <img alt="docker-image" src="image-github/docker-start.PNG">
 9. Preview our application on your lovely browser that is running on ["http://localhost:5001"](http://localhost:5001) 
-    <img alt="docker-image" src="image-github/docker-preview.png">
+    <img alt="docker-image" src="image-github/docker-preview.PNG">
