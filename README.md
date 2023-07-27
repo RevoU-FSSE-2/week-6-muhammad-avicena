@@ -25,10 +25,17 @@ The project has been successfully deployed using Railway. You can access the pro
 Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
 
 1. You will need to have docker application, kindly refer to this website & install based on your Operating system  [Docker Website](https://www.docker.com/)
-2. After the installation done, you can check docker version in terminal/command promopt
+2. After the installation done, you can check docker version in terminal/command prompt :
     ```
     docker --version
     Docker version 24.0.2, build cb74dfc
+    ```
+    `If you use Windows OS, you will need to install WSL(Windows subsytem for Linux)`
+    ```
+    wsl --install
+
+    # Or if you have already installed, make sure it's the latest version
+    wsl --update
     ```
 ### Now we can create our application and deploy in Docker !
 3. I use the application generator tool ["npx express-generator"](https://expressjs.com/en/starter/generator.html) 
@@ -36,7 +43,9 @@ command, which can create an instant application skeleton.
     ```
     # create from scratch
     npx express-generator
-    or
+    
+    #or
+
     # simply clone my repository to get modified version
     git clone https://github.com/RevoU-FSSE-2/week-6-muhammad-avicena
     ```
@@ -96,5 +105,5 @@ command, which can create an instant application skeleton.
     ```
     You will see the docker container is running via desktop :
     <img alt="docker-image" src="image-github/docker-start.PNG">
-9. Preview our application on your lovely browser that is running on ["http://localhost:5001"](http://localhost:5001) 
+9. Preview your application on your lovely browser that is running on ["http://localhost:5001"](http://localhost:5001) 
     <img alt="docker-image" src="image-github/docker-preview.PNG">
