@@ -30,8 +30,11 @@ Using Docker, you can quickly deploy and scale applications into any environment
     docker --version
     Docker version 24.0.2, build cb74dfc
     ```
-    `If you use Windows OS, you will need to install WSL(Windows subsytem for Linux)`
+    Note*: If you use Windows OS, you will need to install WSL(Windows subsytem for Linux)
+    <br>
+    <br>
     ```
+    # Install WSL
     wsl --install
 
     # Or if you have already installed, make sure it's the latest version
