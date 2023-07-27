@@ -1,3 +1,5 @@
+<img alt="header" src="image-github/Header.png">
+
 <h1 align="left">Fancy to see you here ! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
 
 hi, I'm Muhammad Avicena. In this repository, I build simple back-end API using Node.js & Express.js, made up with "npx express generator" & it can be run in Docker container. I hope you like it !
@@ -16,8 +18,9 @@ Interested to have collaboration ? Find me on:
   - Express.js
 - Docker
 
-
 # Installation and Deployment ⚙️
+The project has been successfully deployed using Railway. You can access the production version of the website by following this link: [https://week6.avicena.dev](https://week6.avicena.dev/).
+
 ### Get to know Docker !
 Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
 
