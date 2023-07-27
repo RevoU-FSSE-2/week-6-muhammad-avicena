@@ -82,7 +82,7 @@ command, which can create an instant application skeleton.
     docker container ls -all
     ```
     Or check the docker container via desktop : 
-    <img alt="docker-image" src="image-github/docker-contain.PNG">
+    <img alt="docker-image" src="image-github/docker-container.PNG">
     <br>
     
 ### It's time to see your app running on Docker !
