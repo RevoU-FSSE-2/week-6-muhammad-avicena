@@ -1,5 +1,24 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .title
+    h1 API Documentation
+    h2 Training API backend using Node.js and Express.js integrated with MongoDB
+    h3 Developed by M.A.R
+  ul
+    .api-container
+      h3 Example usage of available API:
+      p.example-api= 'GET https://api-express.avicena.dev/api/user' 
+      br 
+      br
+      each route in routes
+        p
+          strong= route.method
+          | : 
+          span #{route.path}
+          br
+          |  Description: #{route.description}
+          br
+          hr
+
+  
