@@ -1,4 +1,5 @@
-npm-debug.log
+// avoid inadvertently sending files or directories that are large or contain sensitive files to the daemon or avoid adding them to the image using the ADD or COPY commands.
+npm - debug.log
 node_modules
 Dockerfile
 .dockerignore
