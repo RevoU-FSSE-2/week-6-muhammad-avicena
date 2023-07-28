@@ -22,7 +22,7 @@ Interested to have collaboration ? Find me on:
 The project has been successfully deployed using Railway. You can access the production version of the website by following this link: [https://week6.avicena.dev](https://week6.avicena.dev/).
 
 ### Get to know Docker !
-Using Docker, you can quickly deploy and scale applications into any environment and know your code will run.
+Using Docker, you can quickly deploy and scale applications into any environment and know your code will run
 
 1. You will need to have docker application, kindly refer to this website & install based on your Operating system  [Docker Website](https://www.docker.com/)
 2. After the installation done, you can check docker version in terminal/command prompt :
