@@ -70,11 +70,19 @@ const user = [
   {
     _id: "64b855b6c2e758344febd050",
     userName: "Denis",
-    userEmail: "Hilmi.dev@gmail.com",
+    userEmail: "hilmi.dev@gmail.com",
     userPhone: 6281227057176,
     userAdress: "Living in dream",
     __v: 0
   },
+  {
+    _id: "64b855b6c2e758344febd050",
+    userName: "Alifa",
+    userEmail: "alifa.dev@gmail.com",
+    userPhone: 6281227057176,
+    userAdress: "Living in dream",
+    __v: 0
+  }
 ];
 
 
